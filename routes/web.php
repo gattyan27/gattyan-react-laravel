@@ -13,10 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
-
 # どのルートにもマッチしないときに
 Route::fallback(function () {
     # public/index.htmlにはCRAのビルド結果がおいてある
